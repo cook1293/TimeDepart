@@ -38,7 +38,7 @@ Eclipse 3.5 (Galileo)，Java
 完成したテキストファイルは、ソースファイルと同じフォルダ内に配置する。
 また、**TimeTable.java**のファイル読み込み部分のファイル名及びパスを各実行環境に合わせて設定しておく。
 
-``` java:TimeTable.java
+``` java
 //jarで実行の場合
 //Scanner sc = new Scanner(new File("./TrainTableSample.txt"));
 //eclipseで実行の場合
