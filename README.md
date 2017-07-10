@@ -36,7 +36,14 @@ Eclipse 3.5 (Galileo)，Java
 ファイル内容は、列車種別（普通 / 快速の2種のみ）、路線名（4文字まで）、発車時刻（時間と分の間を空ける）、行き先（3文字まで）の順番。上下の並びは必ず時刻が早い順に。項目の間は全て半角スペース。最後の行に改行を入れるとエラーになるので注意。詳細はサンプルファイルを参照。
 
 完成したテキストファイルは、ソースファイルと同じフォルダ内に配置する。
-また、**TimeTable.java**のファイル読み込み部分（ファイル名およびパス）を各自の実行環境に合わせて設定しておく。
+また、**TimeTable.java**のファイル読み込み部分のファイル名及びパスを各実行環境に合わせて設定しておく。
+
+``` java:TimeTable.java
+//jarで実行の場合
+//Scanner sc = new Scanner(new File("./TrainTableSample.txt"));
+//eclipseで実行の場合
+Scanner sc = new Scanner(new File("./src/timeDepart/TrainTableSample.txt"));
+```
 
 ## バグ
 - 午前0時代以降の時刻があるとき、表示されない場合がある。
