@@ -13,6 +13,7 @@ Eclipse 3.5 (Galileo)，Java
 |1.1|2017/05/12|Eclipseでのファイル読込エラー修正。|
 |1.2|2017/06/08|文字コードをUTF-8に変更。|
 |1.2|2017/06/21|GitHubにて公開開始。|
+※Git管理の開始が遅かったため、更新履歴とコミット履歴は一致しません。
 
 ## ファイル構成
 #### ソースファイル
@@ -47,3 +48,7 @@ Scanner sc = new Scanner(new File("./src/timeDepart/TrainTableSample.txt"));
 
 ## バグ
 - 午前0時代以降の時刻があるとき、表示されない場合がある。
+
+## 詳細
+より詳細な情報が欲しい方は以下のリンクを参照。
+https://proglight.jimdo.com/programs/java/
