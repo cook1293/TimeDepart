@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * 時刻表ファイルとやり取りするクラス
- * @author proglight
+ * @author cook1293
  */
 
 public class TimeTable {

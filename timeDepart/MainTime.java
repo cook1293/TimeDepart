@@ -3,7 +3,7 @@ package timeDepart;
 
 /**
  * 列車発車時刻表示アプリメインクラス
- * @author proglight
+ * @author cook1293
  */
 
 public class MainTime {

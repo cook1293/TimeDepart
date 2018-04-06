@@ -2,7 +2,7 @@ package timeDepart;
 
 /**
  * 時刻表データ（BI⇔DL）を保持するクラス
- * @author proglight
+ * @author cook1293
  */
 
 public class TimeData {

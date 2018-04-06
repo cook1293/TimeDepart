@@ -2,7 +2,7 @@ package timeDepart;
 
 /**
  * 列車時刻の検索・計算処理をするクラス
- * @author proglight
+ * @author cook1293
  */
 
 public class TimeLogic {

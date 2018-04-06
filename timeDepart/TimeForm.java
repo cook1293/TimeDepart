@@ -15,7 +15,7 @@ import javax.swing.JTextField;
 
 /**
  * フォームを起動するクラス
- * @author proglight
+ * @author cook1293
  */
 
 public class TimeForm extends JFrame{

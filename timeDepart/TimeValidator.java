@@ -2,7 +2,7 @@ package timeDepart;
 
 /**
  * バリデーション（入力チェック）クラス
- * @author proglight
+ * @author cook1293
  */
 
 public class TimeValidator {

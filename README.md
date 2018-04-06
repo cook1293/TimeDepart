@@ -51,6 +51,5 @@ Scanner sc = new Scanner(new File("./src/timeDepart/TrainTableSample.txt"));
 - 午前0時代以降の時刻があるとき、表示されない場合がある。
 
 ## 詳細
-より詳細な情報が欲しい方は以下のリンクを参照。
-
+より詳細な情報が欲しい方は以下のリンクを参照。  
 https://proglight.jimdo.com/programs/java/
